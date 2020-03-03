@@ -9,8 +9,8 @@ var newDate = require('date-utils');
 //Connect to MySQL
 var con = mysql.createConnection({
     host: 'localhost',
-    user: '@@@@@@@@',
-    password: '@@@@@@@@',
+    user: '@@@@@@@@@',
+    password: '@@@@@@@@@',
     database: 'babynote'
 });
 
