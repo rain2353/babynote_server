@@ -16,7 +16,7 @@ var con = mysql.createConnection({
 
 //PASSWORD ULTIL
 var genRandomString = function (length) {
-    return crypto.randomBytes(Math.ceil(length / 2))
+    return crypto.randomBytes(Math.ceil(length / 2) )
         .toString('hex') /* convert to hexa format */
         .slice(0, length); /* return required number of characters */
 };
